@@ -36,6 +36,25 @@ Please help me spend more time developing and maintaining awesome modules like t
 
 ## Usage Example
 
+Write your angular functions like so:
+
+    someModule.factory('greeter', ng(function($window) {
+      // ...
+    }));
+
+Then run them through `angular-injector` and it will become:
+
+    someModule.factory('greeter', ['$window', function($window) {
+      // ...
+    }]);
+
+You don't need to declare `ng` function anywhere and it could be customized to anything. If you wanted to get fancy, use something like `ƒ` or `∑` to never have any naming conflicts. Or even an emoji if you feeling wild.
+
+This syntax works particularly well in CoffeeScript and is literally 2-3 extra characters:
+
+    someModule.factory 'greeter', ng ($window) ->
+      # ...
+
 Add `browserify-angular-injector` to `package.json` like so:
 
     {
