@@ -11,15 +11,15 @@ This [browserify](http://browserify.org/) plugin is meant to solve an annoying p
 
 In order for minified Angular applicaiton to continue working, all functions must be annotated:
 
-  someModule.factory('greeter', function($window) {
-    // ...
-  });
+    someModule.factory('greeter', function($window) {
+      // ...
+    });
 
 Must be rewritten as:
 
-  someModule.factory('greeter', ['$window', function($window) {
-    // ...
-  }]);
+    someModule.factory('greeter', ['$window', function($window) {
+      // ...
+    }]);
 
 This module does that automatically.
 
@@ -38,12 +38,12 @@ Please help me spend more time developing and maintaining awesome modules like t
 
 Add `browserify-angular-injector` to `package.json` like so:
 
-  {
-    "name": "your-package",
-    "browserify": {
-      "transform": ["browserify-angular-injector"]
+    {
+      "name": "your-package",
+      "browserify": {
+        "transform": ["browserify-angular-injector"]
+      }
     }
-  }
 
 Now all `.js` and `.coffee` files will be passed through `angular-injector`.
 
