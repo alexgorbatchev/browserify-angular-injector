@@ -1,8 +1,14 @@
 {
   "name": "browserify-angular-injector",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "This browserify plugin is meant to solve an annoying problem of minification and dependency injection in angular.js.",
-  "keywords": ["browserify", "angular", "angularjs", "minification", "di"],
+  "keywords": [
+    "browserify",
+    "angular",
+    "angularjs",
+    "minification",
+    "di"
+  ],
   "homepage": "https://github.com/alexgorbatchev/browserify-angular-injector",
   "bugs": "https://github.com/alexgorbatchev/browserify-angular-injector/issues",
   "author": {
