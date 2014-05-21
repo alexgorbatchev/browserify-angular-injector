@@ -5,7 +5,7 @@
 [![Build Status](https://secure.travis-ci.org/alexgorbatchev/browserify-angular-injector.svg?branch=master)](https://travis-ci.org/alexgorbatchev/browserify-angular-injector)
 [![GitTip](https://camo.githubusercontent.com/b05dc5a98a3353fedfc802f373960fc49bab06d7/687474703a2f2f696d672e736869656c64732e696f2f6769747469702f616c6578676f72626174636865762e706e67)](https://www.gittip.com/alexgorbatchev/)
 
-[![NPM](https://nodei.co/npm/browserify-angular-injector.svg?downloads=true)](https://npmjs.org/package/browserify-angular-injector)
+[![NPM](https://nodei.co/npm/browserify-angular-injector.svg)](https://npmjs.org/package/browserify-angular-injector)
 
 This [browserify](http://browserify.org/) plugin is meant to solve an annoying problem of minification and dependency injection in [angular.js](https://www.angularjs.org/). [angular-injector] works better and more reliably than [ngmin](https://www.npmjs.org/package/ngmin) because it works with any syntax and every possible declaration regardless of where and how it happens. `browserify-angular-injector` wraps [angular-injector].
 
