@@ -9,7 +9,7 @@
 
 This [browserify](http://browserify.org/) plugin is meant to solve an annoying problem of minification and dependency injection in [angular.js](https://www.angularjs.org/). [angular-injector] works better and more reliably than [ngmin](https://www.npmjs.org/package/ngmin) because it works with any syntax and every possible declaration regardless of where and how it happens. `browserify-angular-injector` wraps [angular-injector].
 
-In order for minified Angular applicaiton to continue working, all functions must be annotated:
+In order for minified Angular application to continue working, all functions must be annotated:
 
     someModule.factory('greeter', function($window) {
       // ...
