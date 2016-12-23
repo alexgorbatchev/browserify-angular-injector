@@ -25,15 +25,15 @@
     "pretest": "./node_modules/.bin/coffee --bare --output ./lib --compile ./src/*.coffee"
   },
   "dependencies": {
-    "browserify-through": "^1.0.1",
-    "angular-injector": "^0.5.5"
+    "browserify-through": "^2.0.0",
+    "angular-injector": "^1.0.0"
   },
   "devDependencies": {
     "coffee-script": "^1.7.1",
     "coffee-errors": "^0.8.5",
-    "mocha": "^1.19.0",
-    "chai": "^1.9.1",
-    "browserify": "^4.1.5"
+    "mocha": "^3.2.0",
+    "chai": "^3.5.0",
+    "browserify": "^13.1.1"
   },
   "engines": {
     "node": ">=0.10.0",
